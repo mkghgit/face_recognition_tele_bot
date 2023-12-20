@@ -1,0 +1,38 @@
+Face Recognition Tele Bot
+Overview
+The Face Recognition Tele Bot is a Telegram bot designed for face recognition using Python and popular libraries like OpenCV and dlib. The bot allows users to upload images or provide URLs of images to perform face recognition. The underlying face recognition is powered by the dlib library, known for its accuracy in face detection and recognition tasks.
+
+Features
+Face Recognition: The bot uses the dlib library to detect and recognize faces in images.
+Telegram Integration: Interact with the bot through Telegram, making it easy to use and accessible to a wide audience.
+Image Upload and URL Support: Users can upload images or provide image URLs for face recognition.
+Getting Started
+Prerequisites
+Python 3.x
+Telegram Bot Token (Get one by talking to BotFather)
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/mkghgit/face_recognition_tele_bot.git
+cd face_recognition_tele_bot
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Set up your Telegram Bot Token:
+
+Obtain a token from BotFather.
+
+Create a file named .env in the project root and add your token:
+
+Run the bot:
+
+bash
+Copy code
+python bot.py
+Open Telegram and start a chat with your bot.
+
+Send an image or provide an image URL to the bot to perform face recognition.
