@@ -17,7 +17,13 @@ bash
 Copy code
 git clone https://github.com/mkghgit/face_recognition_tele_bot.git
 cd face_recognition_tele_bot
+
+
 Install dependencies:
+pip install telebot
+pip install os-sys
+
+
 
 bash
 Copy code
